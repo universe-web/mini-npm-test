@@ -1,0 +1,12 @@
+<view class="div">
+  <view>title: {{ name }}</view>
+  <view>acc: {{ acc }}</view>
+  <button bindtap="handlePrint">print data of page</button>
+  <button bindtap="handleChange">dispatch action：acc + 1</button>
+
+  <view>arr：{{ list }}</view>
+  <view>sum of arr：{{ sum }}</view>
+  <button bindtap="handleGetSum">get sum of arr</button>
+
+  <button bindtap="handleClearState">clear state</button>
+</view>
